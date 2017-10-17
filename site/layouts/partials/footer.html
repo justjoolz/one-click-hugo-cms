@@ -19,10 +19,10 @@
                 <h3 class="f4 b lh-title mb1 primary">Straight Talk Trading</h3>
                 <ul class="mb3">
                     <li><a href="/" class="link">Home</a></li>
-
+                    {{/*
                     <li><a href="/products" class="link">Our products</a></li>
                     <li><a href="/values" class="link">About</a></li>
-
+                    */}}
                     <li><a href="/post" class="link">Blog</a></li>
                     <li><a href="/contact" class="link">Contact</a></li>
                 </ul>
@@ -41,7 +41,8 @@
             <div>
                 <h3 class="f4 b lh-title mb2 primary">Social media</h3>
                 <ul class="mhn2">
-                    {{ partial "social-icon" (dict "link" "#" "svg" "facebook") }} {{ partial "social-icon" (dict "link" "#" "svg" "twitter") }} {{ partial "social-icon" (dict "link" "#" "svg" "instagram") }} {{ partial "social-icon" (dict "link" "#" "svg" "vimeo") }}
+                    {{ partial "social-icon" (dict "link" "https://www.facebook.com/profile.php?id=1046074803" "svg" "facebook") }} {{/* {{ partial "social-icon" (dict "link" "#" "svg" "twitter") }} {{ partial "social-icon" (dict "link" "#" "svg" "instagram") }} {{ partial
+                    "social-icon" (dict "link" "#" "svg" "vimeo") }} */}}
                 </ul>
             </div>
 
